@@ -3,12 +3,39 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2023-03-25T06:54:14-05:00</updated>
+    <updated>2023-04-02T11:13:06-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
     <id>https://chadballay.com</id>
 
+    <entry>
+        <title>Step 1 - Pi Hole</title>
+        <author>
+            <name>Chad Ballay</name>
+        </author>
+        <link href="https://chadballay.com/step-1-pi-hole/"/>
+        <id>https://chadballay.com/step-1-pi-hole/</id>
+
+        <updated>2023-04-02T11:13:06-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Going to clean up my home setup. First step was to cut down on the crap ads and other stuff when browsing the web. I’ve set one up before so I figured it would be straight forward…. It would be if I didn’t have ATT and their supplied router. It’s&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Going to clean up my home setup.  First step was to cut down on the crap ads and other stuff when browsing the web.  I’ve set one up before so I figured it would be straight forward….  It would be if I didn’t have ATT and their supplied router.  </p>
+<ul>
+<li>Disable IPv6 - Not sure what’s going on but ATT is doing something wonky with it.</li>
+<li>You don’t really get to assign a static IP.  Instead you assign it a pool of 1 for that MAC.  </li>
+<li>Since you can’t adjust DNS on the router, you have to adjust that on all the devices by hand….</li>
+</ul>
+<p>It’s bullshit but I don’t have the time right now to replace the supplied router with one that gives me more control.  </p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Actions Not Words</title>
         <author>
@@ -150,8 +177,8 @@
 <li>Grab the PCAP file. <br><a href="https://api.letsdefend.io/download/downloadfile/smtpchallenge.zip" target="_blank" rel="noopener noreferrer">https://api.letsdefend.io/download/downloadfile/smtpchallenge.zip</a> <br>Pass: 321 <br><br></li>
 <li>Load it into WireShark.<br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/screenshot-from-2023-01-27-05-57-30.png" alt="" width="1406" height="677" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-27-05-57-30-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-27-05-57-30-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-27-05-57-30-md.png 768w"></figure><br><br></li>
 <li>What is the email address of Ann's secret boyfriend? <br>Looked through the pcap file for all the From: and To: SMTP packets. From there I was able to see this. <a href="mailto:mistersecretx@aol.com">mistersecretx@aol.com<br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/screenshot-from-2023-01-31-22-41-35.png" alt="" width="1126" height="408" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-31-22-41-35-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-31-22-41-35-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/screenshot-from-2023-01-31-22-41-35-md.png 768w"></figure></a><br><br></li>
-<li>What is Ann's email password?<br>This one took a bit more.  First thing was to look for some sort of PASS/AUTHENTICATE type interaction...  Oh wait, it literally says that.  The next step is decoding the string.  Used python but it isn't the only way.<br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-17-52-30.png" alt="" width="923" height="76" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-md.png 768w"></figure><br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-00-24.png" alt="" width="492" height="50" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-md.png 768w"></figure><br><br></li>
-<li>What is the name of the file that Ann sent to his secret lover?<br>For this one I used Wireshark's Follow function to see all the packets for this one SMTP message.  Then when it presented the total message I found the section for the attached document.<br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-34-13.png" alt="" width="1398" height="377" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-md.png 768w"></figure><br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-35-16.png" alt="" width="736" height="270" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-md.png 768w"></figure><br><br></li>
+<li>What is Ann's email password?<br>This one took a bit more.  First thing was to look for some sort of PASS/AUTHENTICATE type interaction...  Oh wait, it literally says that.  The next step is decoding the string.  Used python but it isn't the only way.<br><figure class="post__image"><img  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-17-52-30.png" alt="" width="923" height="76" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-17-52-30-md.png 768w"></figure><br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-00-24.png" alt="" width="492" height="50" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-00-24-md.png 768w"></figure><br><br></li>
+<li>What is the name of the file that Ann sent to his secret lover?<br>For this one I used Wireshark's Follow function to see all the packets for this one SMTP message.  Then when it presented the total message I found the section for the attached document.<br><figure class="post__image"><img  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-34-13.png" alt="" width="1398" height="377" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-34-13-md.png 768w"></figure><br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-05-18-35-16.png" alt="" width="736" height="270" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-05-18-35-16-md.png 768w"></figure><br><br></li>
 <li>In what country will Ann meet with her secret lover?<br>This one was a bit harder. There was a reference about bringing a swimsuit in the body of the message but nothing more. To get it you had to grab the contents of the attachment and then build/view the file in an word doc application.  <br><figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-06-02-34-19.png" alt="" width="951" height="753" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-34-19-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-34-19-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-34-19-md.png 768w"></figure><br><br></li>
 <li>What is the MD5 value of the attachment Ann sent?<br>This one ended up being as simple as running a command. <figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/14/Screenshot-from-2023-02-06-02-36-09.png" alt="" width="689" height="62" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-36-09-xs.png 300w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-36-09-sm.png 480w ,https://chadballay.com/media/posts/14/responsive/Screenshot-from-2023-02-06-02-36-09-md.png 768w"></figure><br><br></li>
 </ol>
@@ -296,31 +323,6 @@
         <content type="html">
             <![CDATA[
                 <p>Well actually I'm testing out Publii more than anything.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Big Feelings With Big Songs</title>
-        <author>
-            <name>Chad Ballay</name>
-        </author>
-        <link href="https://chadballay.com/big-feelings-with-big-songs/"/>
-        <id>https://chadballay.com/big-feelings-with-big-songs/</id>
-            <category term="Personal"/>
-
-        <updated>2023-02-06T04:11:17-06:00</updated>
-            <summary>
-                <![CDATA[
-                    I have had to explain why I like musicals on a few occasions. Usually a soft pause happens in a conversation where that is revealed but occasionally a direct question is asked. It is always a weird one because I have to guess what level of info do I reveal.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I have had to explain why I like musicals on a few occasions.  Usually a soft pause happens in a conversation where that is revealed but occasionally a direct question is asked.  It is always a weird one because I have to guess what level of info do I reveal.  </p>
-<p>Some of it is that the songs are catchy and usually the lyrics are clear to hear.  No multiple singers singing over each other usually.  With my hearing that’s sometimes a quick path into chaos.</p>
-<p>Some of it is because much of the lyrics are the inner voices of the character and it explains the motivation without breaking the fourth wall.  Being on the spectrum, I have a hard time understanding motivations.</p>
-<p>A lot of it is because I damn well like the art form and enjoy the fact that people get slightly miffed when they find out a 6’6” straight dude is into musicals and not football…..  Usually this doesn’t rile me up but this week had me get questioned as to why I would choose to not go to the TCU/Michigan Fiesta Bowl game.  </p>
-
             ]]>
         </content>
     </entry>
