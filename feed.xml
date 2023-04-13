@@ -3,12 +3,33 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2023-04-10T14:56:53-05:00</updated>
+    <updated>2023-04-13T05:36:33-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
     <id>https://chadballay.com</id>
 
+    <entry>
+        <title>Step 2 - Get A Dog</title>
+        <author>
+            <name>Chad Ballay</name>
+        </author>
+        <link href="https://chadballay.com/step-2-get-a-dog/"/>
+        <id>https://chadballay.com/step-2-get-a-dog/</id>
+
+        <updated>2023-04-13T05:36:33-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Bit of a non-technical sidestep…. I got a dog named Lafayette. A Great Pyrenees mix to be exact. Jesus, I forgot what its like to own a dog. To be able to talk to the creature and know that it understands nothing of what you are saying and yet if&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Bit of a non-technical sidestep….  I got a dog named Lafayette.  A Great Pyrenees mix to be exact.  Jesus, I forgot what its like to own a dog.  To be able to talk to the creature and know that it understands nothing of what you are saying and yet if it did it would offer sage advice.  Maybe there is something to be said about Emotional Support Animals.</p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Step 1 - Pi Hole</title>
         <author>
@@ -303,26 +324,6 @@
 </blockquote>
 <p dir="auto">The number of times that I have to run these same commands. Find the string of text that is in the log file and where did it come from. Or go spit out the ASCII strings from compiled code. Or what process has what port on a box.</p>
 <p dir="auto">Tonight is just yet another night of seeing the same pattern get played out in new instances. Troubleshooting by following the recipe that hasn't changed in years.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Testing out Next.JS</title>
-        <author>
-            <name>Chad Ballay</name>
-        </author>
-        <link href="https://chadballay.com/testing-out-nextjs/"/>
-        <id>https://chadballay.com/testing-out-nextjs/</id>
-
-        <updated>2023-02-01T04:27:43-06:00</updated>
-            <summary>
-                <![CDATA[
-                    Well actually I'm testing out Publii more than anything.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Well actually I'm testing out Publii more than anything.</p>
             ]]>
         </content>
     </entry>

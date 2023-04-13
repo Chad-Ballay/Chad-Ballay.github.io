@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://chadballay.com/step-2-get-a-dog/",
+            "url": "https://chadballay.com/step-2-get-a-dog/",
+            "title": "Step 2 - Get A Dog",
+            "summary": "Bit of a non-technical sidestep…. I got a dog named Lafayette. A Great Pyrenees mix to be exact. Jesus, I forgot what its like to own a dog. To be able to talk to the creature and know that it understands nothing of what you are saying and yet if&hellip;",
+            "content_html": "<p>Bit of a non-technical sidestep….  I got a dog named Lafayette.  A Great Pyrenees mix to be exact.  Jesus, I forgot what its like to own a dog.  To be able to talk to the creature and know that it understands nothing of what you are saying and yet if it did it would offer sage advice.  Maybe there is something to be said about Emotional Support Animals.</p>\n",
+            "author": {
+                "name": "Chad Ballay"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-04-13T05:36:33-05:00",
+            "date_modified": "2023-04-13T05:36:33-05:00"
+        },
+        {
             "id": "https://chadballay.com/step-1-pi-hole/",
             "url": "https://chadballay.com/step-1-pi-hole/",
             "title": "Step 1 - Pi Hole",
@@ -137,20 +151,6 @@
             ],
             "date_published": "2023-02-01T05:14:42-06:00",
             "date_modified": "2023-02-06T03:48:46-06:00"
-        },
-        {
-            "id": "https://chadballay.com/testing-out-nextjs/",
-            "url": "https://chadballay.com/testing-out-nextjs/",
-            "title": "Testing out Next.JS",
-            "summary": "Well actually I'm testing out Publii more than anything.",
-            "content_html": "<p>Well actually I'm testing out Publii more than anything.</p>",
-            "author": {
-                "name": "Chad Ballay"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-02-01T04:27:43-06:00",
-            "date_modified": "2023-02-01T04:27:43-06:00"
         }
     ]
 }
