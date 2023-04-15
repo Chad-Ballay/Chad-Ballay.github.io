@@ -3,12 +3,36 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2023-04-13T05:36:33-05:00</updated>
+    <updated>2023-04-15T16:36:36-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
     <id>https://chadballay.com</id>
 
+    <entry>
+        <title>Pi-Hole Happiness</title>
+        <author>
+            <name>Chad Ballay</name>
+        </author>
+        <link href="https://chadballay.com/pi-hole-happiness/"/>
+        <id>https://chadballay.com/pi-hole-happiness/</id>
+        <media:content url="https://chadballay.com/media/posts/22/pi-hole.png" medium="image" />
+
+        <updated>2023-04-15T16:36:36-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://chadballay.com/media/posts/22/pi-hole.png" alt="" />
+                    Definitely noticed that internet surfing has improved. I mean I knew it would but not to the degree it has.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://chadballay.com/media/posts/22/pi-hole.png" class="type:primaryImage" alt="" /></p>
+                <p>Definitely noticed that internet surfing has improved.  I mean I knew it would but not to the degree it has.  </p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Step 2 - Get A Dog</title>
         <author>
@@ -298,32 +322,6 @@
 <li>Paid off house.</li>
 </ol>
 
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Repeating Pattern</title>
-        <author>
-            <name>Chad Ballay</name>
-        </author>
-        <link href="https://chadballay.com/repeating-pattern/"/>
-        <id>https://chadballay.com/repeating-pattern/</id>
-
-        <updated>2023-02-06T03:48:46-06:00</updated>
-            <summary>
-                <![CDATA[
-                    find . -type f -exec grep -li TXT_STRING {} ; strings /dir/to/executable | grep TXT_STRING lsof -i -P -n ... ... The number of times that I have to run these same commands. Find the string of text that is in the log file and where did it come from.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <blockquote>
-<p dir="auto"><code>find . -type f -exec grep -li TXT_STRING {} ; </code></p>
-<p dir="auto"><code>strings /dir/to/executable | grep TXT_STRING </code></p>
-<p dir="auto"><code>lsof -i -P -n ... ...</code></p>
-</blockquote>
-<p dir="auto">The number of times that I have to run these same commands. Find the string of text that is in the log file and where did it come from. Or go spit out the ASCII strings from compiled code. Or what process has what port on a box.</p>
-<p dir="auto">Tonight is just yet another night of seeing the same pattern get played out in new instances. Troubleshooting by following the recipe that hasn't changed in years.</p>
             ]]>
         </content>
     </entry>

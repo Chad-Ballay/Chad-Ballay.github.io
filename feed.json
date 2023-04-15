@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://chadballay.com/pi-hole-happiness/",
+            "url": "https://chadballay.com/pi-hole-happiness/",
+            "title": "Pi-Hole Happiness",
+            "summary": "Definitely noticed that internet surfing has improved. I mean I knew it would but not to the degree it has.",
+            "content_html": "<p>Definitely noticed that internet surfing has improved.  I mean I knew it would but not to the degree it has.  </p>\n",
+            "image": "https://chadballay.com/media/posts/22/pi-hole.png",
+            "author": {
+                "name": "Chad Ballay"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-04-15T16:36:20-05:00",
+            "date_modified": "2023-04-15T16:36:36-05:00"
+        },
+        {
             "id": "https://chadballay.com/step-2-get-a-dog/",
             "url": "https://chadballay.com/step-2-get-a-dog/",
             "title": "Step 2 - Get A Dog",
@@ -137,20 +152,6 @@
             ],
             "date_published": "2023-02-01T21:32:04-06:00",
             "date_modified": "2023-04-10T14:56:53-05:00"
-        },
-        {
-            "id": "https://chadballay.com/repeating-pattern/",
-            "url": "https://chadballay.com/repeating-pattern/",
-            "title": "Repeating Pattern",
-            "summary": "find . -type f -exec grep -li TXT_STRING {} ; strings /dir/to/executable | grep TXT_STRING lsof -i -P -n ... ... The number of times that I have to run these same commands. Find the string of text that is in the log file and where did it come from.",
-            "content_html": "<blockquote>\n<p dir=\"auto\"><code>find . -type f -exec grep -li TXT_STRING {} ; </code></p>\n<p dir=\"auto\"><code>strings /dir/to/executable | grep TXT_STRING </code></p>\n<p dir=\"auto\"><code>lsof -i -P -n ... ...</code></p>\n</blockquote>\n<p dir=\"auto\">The number of times that I have to run these same commands. Find the string of text that is in the log file and where did it come from. Or go spit out the ASCII strings from compiled code. Or what process has what port on a box.</p>\n<p dir=\"auto\">Tonight is just yet another night of seeing the same pattern get played out in new instances. Troubleshooting by following the recipe that hasn't changed in years.</p>",
-            "author": {
-                "name": "Chad Ballay"
-            },
-            "tags": [
-            ],
-            "date_published": "2023-02-01T05:14:42-06:00",
-            "date_modified": "2023-02-06T03:48:46-06:00"
         }
     ]
 }
