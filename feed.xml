@@ -18,7 +18,7 @@
         <id>https://chadballay.com/pi-hole-happiness/</id>
         <media:content url="https://chadballay.com/media/posts/22/pi-hole.png" medium="image" />
 
-        <updated>2023-04-15T16:36:36-05:00</updated>
+        <updated>2023-04-15T16:36:20-05:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://chadballay.com/media/posts/22/pi-hole.png" alt="" />
@@ -29,7 +29,6 @@
             <![CDATA[
                     <p><img src="https://chadballay.com/media/posts/22/pi-hole.png" class="type:primaryImage" alt="" /></p>
                 <p>Definitely noticed that internet surfing has improved.  I mean I knew it would but not to the degree it has.  </p>
-
             ]]>
         </content>
     </entry>
@@ -50,7 +49,6 @@
         <content type="html">
             <![CDATA[
                 <p>Bit of a non-technical sidestep….  I got a dog named Lafayette.  A Great Pyrenees mix to be exact.  Jesus, I forgot what its like to own a dog.  To be able to talk to the creature and know that it understands nothing of what you are saying and yet if it did it would offer sage advice.  Maybe there is something to be said about Emotional Support Animals.</p>
-
             ]]>
         </content>
     </entry>
@@ -70,14 +68,12 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Going to clean up my home setup.  First step was to cut down on the crap ads and other stuff when browsing the web.  I’ve set one up before so I figured it would be straight forward….  It would be if I didn’t have ATT and their supplied router.  </p>
-<ul>
+                <p>Going to clean up my home setup.  First step was to cut down on the crap ads and other stuff when browsing the web.  I’ve set one up before so I figured it would be straight forward….  It would be if I didn’t have ATT and their supplied router.  </p><ul>
 <li>Disable IPv6 - Not sure what’s going on but ATT is doing something wonky with it.</li>
 <li>You don’t really get to assign a static IP.  Instead you assign it a pool of 1 for that MAC.  </li>
 <li>Since you can’t adjust DNS on the router, you have to adjust that on all the devices by hand….</li>
 </ul>
 <p>It’s bullshit but I don’t have the time right now to replace the supplied router with one that gives me more control.  </p>
-
             ]]>
         </content>
     </entry>
@@ -97,15 +93,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I’m going to start this off with the main point.  I love this realization for my mom.  In a very real sense of the world it reassures me.  I’m too damn old though to not realize that the tone of what I say leaves this too nuainced to properly convey it on some shitty blog post.</p>
-<p>Recently, I had her travel with me for some medical tourism.  Whole other subject around me having a food addicition, weightloss surgery, and american healthcare.  Took a week and flew out to meet me in San Diego, to go over into Mexico, and to be their while I was getting a gastric bypass.  Flew back with me to Arkansas and then left to go back to her own home.  This is the longest Mother/Son trip we’ve taken and the circumstances were a damn minefield. </p>
-<p>She told me how she was worried that I was being hasty in getting this surgery.  She’s my mom so everything around this surgery trampled upon her sense of motherhood for me.  But she also told me that if it is what I feel I need to do then she’ll be there to help me.  That wasn’t some idle comment, either.  I’m 43 years old and having to let my mom help me so that I didn’t violate the medical restrictions was hard.  I’m physically capable and should be the one who is helping <em>HER</em> with <em>HER</em> luggage.  Never should it be that she has to do that for me.  (Seriously, it was weird having to stand aside for things like that.)</p>
-<p>When it was time for her to fly back to her home she was torn.  It’ll be a while before I’m fully healed, so when does her time needing to mother me stop?  Once we get back to Arkansas?  Once I’m safely at my house?  When everything around my house that can be prepared to ease my recovery is taken care of?  There is no wrong answer since it is situational.  Any of those points work.  </p>
-<p>This is where the premise comes in.  She did all these actions to show that she cares for me and then when I worried about her not taking care of her own things and life she opened up to me.  My family is not a big talking family.  Oprah, Dr Phil, all the therapist have made it so damn clear that people need to talk more about their feelings.  And they are probably right that people should.  It just isn’t my family’s way.  My family’s way did make a uniq zigzag in that direction for me and my mom.  </p>
-<p>She told me in her own way what she’s been doing for herself during her retirement.  Much of it wasn’t new news, her life isn’t a mysteriously shrouded secret.  This was her letting me know she’s taking care of herself and neglecting things.  As a grown up tempering the childlike desire to have everything go your way with the overcompensating adult desire to handle your own responsibilities is a hard one for me.  Do I wish my mom lived closer?  Yes.  Do I wish my mom had the easiest life she could want?  Yes.  Do I acknowledge that isn’t possible because we don’t live in a rainbow-filled unicorn nature preserve?  Yes.</p>
-<p>When she checked in with me about her leaving “too soon” I’m not sure how to explain this but it was a reassurance.  Timing didn’t workout for her to have much grandma time with the kids.  Timing never works out for everything to be accomplished.  Her time with them would’ve cut into her limited time during her husband’s days off.  Seeing that my mom has a life beyond Mom and Grandma isn’t a new thing.  Seeing her look at a situation, weigh the options, and choose her own needs was an act that let me know I don’t have to worry.  I can put down worrying on her behalf that she’s sacrificing too much and know that she’s an adult and sets boundaries that she needs.  </p>
-<p>Again, not one IOTA of this is a new or unwelcome bit of information.  But sometimes you just need the familar comfort of reassuring actions from your mom to help you feel better when you are feeling sick.  ;-)</p>
-
+                <p>I’m going to start this off with the main point.  I love this realization for my mom.  In a very real sense of the world it reassures me.  I’m too damn old though to not realize that the tone of what I say leaves this too nuainced to properly convey it on some shitty blog post.</p><p>Recently, I had her travel with me for some medical tourism.  Whole other subject around me having a food addicition, weightloss surgery, and american healthcare.  Took a week and flew out to meet me in San Diego, to go over into Mexico, and to be their while I was getting a gastric bypass.  Flew back with me to Arkansas and then left to go back to her own home.  This is the longest Mother/Son trip we’ve taken and the circumstances were a damn minefield. </p><p>She told me how she was worried that I was being hasty in getting this surgery.  She’s my mom so everything around this surgery trampled upon her sense of motherhood for me.  But she also told me that if it is what I feel I need to do then she’ll be there to help me.  That wasn’t some idle comment, either.  I’m 43 years old and having to let my mom help me so that I didn’t violate the medical restrictions was hard.  I’m physically capable and should be the one who is helping <em>HER</em> with <em>HER</em> luggage.  Never should it be that she has to do that for me.  (Seriously, it was weird having to stand aside for things like that.)</p><p>When it was time for her to fly back to her home she was torn.  It’ll be a while before I’m fully healed, so when does her time needing to mother me stop?  Once we get back to Arkansas?  Once I’m safely at my house?  When everything around my house that can be prepared to ease my recovery is taken care of?  There is no wrong answer since it is situational.  Any of those points work.  </p><p>This is where the premise comes in.  She did all these actions to show that she cares for me and then when I worried about her not taking care of her own things and life she opened up to me.  My family is not a big talking family.  Oprah, Dr Phil, all the therapist have made it so damn clear that people need to talk more about their feelings.  And they are probably right that people should.  It just isn’t my family’s way.  My family’s way did make a uniq zigzag in that direction for me and my mom.  </p><p>She told me in her own way what she’s been doing for herself during her retirement.  Much of it wasn’t new news, her life isn’t a mysteriously shrouded secret.  This was her letting me know she’s taking care of herself and neglecting things.  As a grown up tempering the childlike desire to have everything go your way with the overcompensating adult desire to handle your own responsibilities is a hard one for me.  Do I wish my mom lived closer?  Yes.  Do I wish my mom had the easiest life she could want?  Yes.  Do I acknowledge that isn’t possible because we don’t live in a rainbow-filled unicorn nature preserve?  Yes.</p><p>When she checked in with me about her leaving “too soon” I’m not sure how to explain this but it was a reassurance.  Timing didn’t workout for her to have much grandma time with the kids.  Timing never works out for everything to be accomplished.  Her time with them would’ve cut into her limited time during her husband’s days off.  Seeing that my mom has a life beyond Mom and Grandma isn’t a new thing.  Seeing her look at a situation, weigh the options, and choose her own needs was an act that let me know I don’t have to worry.  I can put down worrying on her behalf that she’s sacrificing too much and know that she’s an adult and sets boundaries that she needs.  </p><p>Again, not one IOTA of this is a new or unwelcome bit of information.  But sometimes you just need the familar comfort of reassuring actions from your mom to help you feel better when you are feeling sick.  ;-)</p>
             ]]>
         </content>
     </entry>
@@ -183,7 +171,7 @@
         <id>https://chadballay.com/cant-stop-the-signal-mal/</id>
             <category term="PPP"/>
 
-        <updated>2023-02-06T04:14:16-06:00</updated>
+        <updated>2023-02-06T03:26:35-06:00</updated>
             <summary>
                 <![CDATA[
                     I've gotten antsy about not doing some sort of large project. A side hustle to either push my understanding or create a new bullet point on my resume. I have plenty of work and other interests but a weak siren's call keeps rattling around in my brain. So I'll start&hellip;
@@ -209,7 +197,7 @@
         <id>https://chadballay.com/disclose-the-agent-writeup/</id>
             <category term="Cybersecurity"/>
 
-        <updated>2023-02-06T03:28:24-06:00</updated>
+        <updated>2023-02-05T15:36:59-06:00</updated>
             <summary>
                 <![CDATA[
                     Decided to start back up with some basic training after someone mentioned LetsDefend.io. The site impressed me. Here is a writeup on one of their public facing challenges that kind of shows what to expect. Disclose the Agent Premise is that you've got a PCAP file and you need to&hellip;
@@ -238,7 +226,7 @@
         <link href="https://chadballay.com/impossible-list/"/>
         <id>https://chadballay.com/impossible-list/</id>
 
-        <updated>2023-04-10T14:56:53-05:00</updated>
+        <updated>2023-02-01T21:32:04-06:00</updated>
             <summary>
                 <![CDATA[
                     Travel Go to Iceland and see the aurora or even the geography depending on the time of year. National Parks are America’s best idea and I want to see them all. Bryce Canyon Zion National Park Hot Springs Yellowstone Everglades Gateway Arch Grand Teton Great Smokey Mountains White Sands Grand&hellip;
