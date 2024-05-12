@@ -3,7 +3,7 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2024-05-11T21:21:33-05:00</updated>
+    <updated>2024-05-11T21:34:24-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
@@ -16,6 +16,7 @@
         </author>
         <link href="https://chadballay.com/creating-a-github-hosted-blog/"/>
         <id>https://chadballay.com/creating-a-github-hosted-blog/</id>
+            <category term="Cybersecurity"/>
 
         <updated>2024-05-11T21:07:42-05:00</updated>
             <summary>
@@ -56,6 +57,7 @@
         <link href="https://chadballay.com/pi-hole-happiness/"/>
         <id>https://chadballay.com/pi-hole-happiness/</id>
         <media:content url="https://chadballay.com/media/posts/22/pi-hole.png" medium="image" />
+            <category term="Personal"/>
 
         <updated>2023-04-15T16:36:20-05:00</updated>
             <summary>
@@ -78,6 +80,7 @@
         </author>
         <link href="https://chadballay.com/step-2-get-a-dog/"/>
         <id>https://chadballay.com/step-2-get-a-dog/</id>
+            <category term="Personal"/>
 
         <updated>2023-04-13T05:36:33-05:00</updated>
             <summary>
@@ -98,6 +101,7 @@
         </author>
         <link href="https://chadballay.com/step-1-pi-hole/"/>
         <id>https://chadballay.com/step-1-pi-hole/</id>
+            <category term="Cybersecurity"/>
 
         <updated>2023-04-02T11:13:06-05:00</updated>
             <summary>
@@ -123,6 +127,7 @@
         </author>
         <link href="https://chadballay.com/actions-not-words/"/>
         <id>https://chadballay.com/actions-not-words/</id>
+            <category term="Personal"/>
 
         <updated>2023-03-25T06:54:14-05:00</updated>
             <summary>
@@ -143,6 +148,7 @@
         </author>
         <link href="https://chadballay.com/wgu/"/>
         <id>https://chadballay.com/wgu/</id>
+            <category term="Cybersecurity"/>
 
         <updated>2023-03-25T01:47:17-05:00</updated>
             <summary>
@@ -163,6 +169,7 @@
         </author>
         <link href="https://chadballay.com/a-mind-is-a-terrible-thing-to-waste/"/>
         <id>https://chadballay.com/a-mind-is-a-terrible-thing-to-waste/</id>
+            <category term="Personal"/>
 
         <updated>2023-02-26T09:28:38-06:00</updated>
             <summary>
