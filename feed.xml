@@ -3,7 +3,7 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2025-06-22T03:42:06-05:00</updated>
+    <updated>2025-06-27T23:37:40-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
@@ -20,14 +20,16 @@
         <updated>2025-06-22T03:42:06-05:00</updated>
             <summary>
                 <![CDATA[
-                    Just spent waaaayyyy too much time fighting with getting acme.sh to get setup to pull Let's Encrypt ssl certificate down for my Unifi router. Pretty much the headache came down to the acme.sh script trying to default to using an ECC based key but Unifi not liking that. Had to&hellip;
+                    This just caused me to go down a lengthy rabbit hole about how Unify has SSL certs configured on their devices and the interplay they have with their own WiFiMan app. Suffice it to say I have Let's Encrypt working but I've not figured out how to get WiFiMan to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Just spent waaaayyyy too much time fighting with getting acme.sh to get setup to pull Let's Encrypt ssl certificate down for my Unifi router.  Pretty much the headache came down to the acme.sh script trying to default to using an ECC based key but Unifi not liking that.  Had to pass it a key size parameter to force it to going for an RSA based one.</p>
+                <p>This just caused me to go down a lengthy rabbit hole about how Unify has SSL certs configured on their devices and the interplay they have with their own WiFiMan app.  Suffice it to say I have Let's Encrypt working but I've not figured out how to get WiFiMan to also work with this installed.  Not the worst tradeoff but it is something to be aware of.</p>
+<p><a href="https://github.com/kchristensen/udm-le/issues/30">https://github.com/kchristensen/udm-le/issues/30</a></p>
+<p> </p>
+<p><span style="text-decoration: line-through;">Just spent waaaayyyy too much time fighting with getting acme.sh to get setup to pull Let's Encrypt ssl certificate down for my Unifi router.  Pretty much the headache came down to the acme.sh script trying to default to using an ECC based key but Unifi not liking that.  Had to pass it a key size parameter to force it to going for an RSA based one.</span></p>
 <div>
-<div> </div>
 <blockquote>
 <div><code># Get the script and set the email address to my own.</code></div>
 <div><code>curl https://get.acme.sh | sh -s email=YOUR.ADDRESS@email.com</code></div>
