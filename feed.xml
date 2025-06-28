@@ -3,12 +3,48 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2025-06-27T23:41:00-05:00</updated>
+    <updated>2025-06-28T03:43:12-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
     <id>https://chadballay.com</id>
 
+    <entry>
+        <title>Proxmox VE Server</title>
+        <author>
+            <name>Chad Ballay</name>
+        </author>
+        <link href="https://chadballay.com/proxmox-ve-server/"/>
+        <id>https://chadballay.com/proxmox-ve-server/</id>
+
+        <updated>2025-06-28T03:43:12-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Using these references for getting Proxmox setup. Then setting up Bitwarden as my first container. Then configuring backups to my NAS. https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Using these references for getting Proxmox setup.  </p>
+<ol>
+<li><a href="https://github.com/Curious4Tech/Proxmox-VE-on-Hyper-V?tab=readme-ov-file">https://github.com/Curious4Tech/Proxmox-VE-on-Hyper-V?tab=readme-ov-file</a></li>
+<li><a href="https://poweradm.com/enable-pve-no-subscription-proxmox/">https://poweradm.com/enable-pve-no-subscription-proxmox/</a></li>
+<li><a href="https://medium.com/@admin_85331/proxmox-ssl-certificate-with-letsencrypt-using-cloudflare-eadd7cbad524">https://medium.com/@admin_85331/proxmox-ssl-certificate-with-letsencrypt-using-cloudflare-eadd7cbad524</a></li>
+</ol>
+<p>Then setting up Bitwarden as my first container.</p>
+<ol>
+<li><a href="https://forum.proxmox.com/threads/networking-issue-proxmox-on-a-hyper-v-guest.132221/">https://forum.proxmox.com/threads/networking-issue-proxmox-on-a-hyper-v-guest.132221/</a></li>
+<li><a href="https://bitwarden.com/help/install-on-premise-linux/#install-docker-and-docker-compose">https://bitwarden.com/help/install-on-premise-linux/#install-docker-and-docker-compose</a></li>
+<li><a href="https://blog.0x4448.com/bitwarden-cloudflare-dns/">https://blog.0x4448.com/bitwarden-cloudflare-dns/</a></li>
+<li><a href="https://community.bitwarden.com/t/bitwarden-and-gmail-smtp/45218/3">https://community.bitwarden.com/t/bitwarden-and-gmail-smtp/45218/3</a></li>
+</ol>
+<p>Then configuring backups to my NAS.</p>
+<ol>
+<li><a href="https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/">https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/</a></li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Setting up Let&#x27;s Encrypt on Unifi</title>
         <author>
@@ -242,32 +278,6 @@
                 <p>Started trawling through the PPP dataset and decided to focus on Bentonville based loans.  That was a mistake.  So many businesses that I know thrived during the pandemic or otherwise took advantage of the PPP loan program.  Business where the owner has been publicly hateful to minorities.  Or dismissive of any social program that helps people since they hate socialism for everyone else but themselves.  So much damn money and all of it forgiven.  Just a straight up wealth transfer on the backs of those who pay taxes.... 1/2 a million for the local restruant owner who was anti-korean.  20k for a "consultant" who looks to have did it just to get a loan.</p>
 <p>And when I talked about it with friends I got two reactions.  Sympathetic sounds and apathy.  I have a bit of a sample bias going on since I'm talking to my own set of friends.  The sympathetic sounds part was good.  My friends doing what they can to de-ruffle my feathers.  But the apathy was just too much.  I don't have the reserves to give a St Crispins Day speech and somehow make the world be right.  It just ain't my wheelhouse.  So this leaves me drained and even more disappointed in our system.  </p>
 <p><a href="https://docs.google.com/spreadsheets/d/17OaOvNZsRaD6PtZM3Di1MfCCL7_x9XAT/edit?usp=sharing&amp;ouid=104180701464104876597&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer">In any case here is the Bentonville specific dataset I put together.</a>  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Can&#x27;t stop the signal, Mal.</title>
-        <author>
-            <name>Chad Ballay</name>
-        </author>
-        <link href="https://chadballay.com/cant-stop-the-signal-mal/"/>
-        <id>https://chadballay.com/cant-stop-the-signal-mal/</id>
-            <category term="PPP"/>
-
-        <updated>2023-02-06T03:26:35-06:00</updated>
-            <summary>
-                <![CDATA[
-                    I've gotten antsy about not doing some sort of large project. A side hustle to either push my understanding or create a new bullet point on my resume. I have plenty of work and other interests but a weak siren's call keeps rattling around in my brain. So I'll start&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I've gotten antsy about not doing some sort of large project.  A side hustle to either push my understanding or create a new bullet point on my resume.  I have plenty of work and other interests but a weak siren's call keeps rattling around in my brain.  So I'll start a project and hopefully it pans. </p>
-<p>First step is to pull a large dataset.  For this I'm using the PPP loan data.  You can get it <a href="https://data.sba.gov/dataset/ppp-foia" target="_blank" rel="noopener noreferrer">here</a>. [<a href="https://data.sba.gov/dataset/ppp-foia">https://data.sba.gov/dataset/ppp-foia</a>]  <figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/15/Screenshot-from-2023-02-06-03-15-10.png" alt="" width="425" height="276" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-15-10-xs.png 300w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-15-10-sm.png 480w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-15-10-md.png 768w"></figure>
-<p>It's several very large files.  First is the data dictionary and then it's twelve 400MB+ files.  There is 10.5 million records in total that'll have to be processed.</p>
-<figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/15/Screenshot-from-2023-02-06-03-14-04.png" alt="" width="295" height="325" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-14-04-xs.png 300w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-14-04-sm.png 480w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-14-04-md.png 768w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/15/Screenshot-from-2023-02-06-03-17-15.png" alt="" width="301" height="217" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-17-15-xs.png 300w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-17-15-sm.png 480w ,https://chadballay.com/media/posts/15/responsive/Screenshot-from-2023-02-06-03-17-15-md.png 768w"></figure>
-<p>Next up is getting this data into a tool for use.  </p>
             ]]>
         </content>
     </entry>
