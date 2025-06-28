@@ -3,7 +3,7 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2025-06-28T03:43:12-05:00</updated>
+    <updated>2025-06-28T04:24:14-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2025-06-28T03:43:12-05:00</updated>
             <summary>
                 <![CDATA[
-                    Using these references for getting Proxmox setup. Then setting up Bitwarden as my first container. Then configuring backups to my NAS. https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/
+                    Using these references for getting Proxmox setup. Then setting up Bitwarden as my first container. Then configuring backups to my NAS. https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/ https://unix.stackexchange.com/questions/138090/cant-resize-a-partition-using-resize2fs https://forum.proxmox.com/threads/can-not-backup-lxc-unprivileged.71878/#post-321844
                 ]]>
             </summary>
         <content type="html">
@@ -41,6 +41,8 @@
 <p>Then configuring backups to my NAS.</p>
 <ol>
 <li><a href="https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/">https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/</a></li>
+<li><a href="https://unix.stackexchange.com/questions/138090/cant-resize-a-partition-using-resize2fs">https://unix.stackexchange.com/questions/138090/cant-resize-a-partition-using-resize2fs</a></li>
+<li><a href="https://forum.proxmox.com/threads/can-not-backup-lxc-unprivileged.71878/#post-321844">https://forum.proxmox.com/threads/can-not-backup-lxc-unprivileged.71878/#post-321844</a></li>
 </ol>
             ]]>
         </content>
