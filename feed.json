@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://chadballay.com/new-linux-vm-setup/",
+            "url": "https://chadballay.com/new-linux-vm-setup/",
+            "title": "Vagrant Begone!",
+            "summary": "It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas. I've got years of familiarity with it and more importantly, the mythos around it's creation called to me. Here is&hellip;",
+            "content_html": "<p>It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas.  I've got years of familiarity with it and more importantly, the mythos around it's creation called to me.  <br><br>Here is some of the backstory that I'm referring to:</p>\n<ul>\n<li><a href=\"https://www.hashicorp.com/en/resources/growing-hashicorp-from-dorm-room-oss\">https://www.hashicorp.com/en/resources/growing-hashicorp-from-dorm-room-oss</a></li>\n<li><a href=\"https://mitchellh.com/writing/the-tao-of-vagrant\">https://mitchellh.com/writing/the-tao-of-vagrant</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=wL380zdLD6Y\">https://www.youtube.com/watch?v=wL380zdLD6Y</a></li>\n</ul>\n<p>But Vagrant is getting long in the tooth.  Many of the plugins for Vagrant are no longer maintained.  Hashicorp hasn't been devoting a lot of horsepower to developing Vagrant beyond minimal bug fixes and some re-architecting for longterm maintenance. I had held out hope that IBM buying Hashicorp would trigger Vagrant's renesaince but that was me completely not understanding what made Hashicorp valuable to IBM.  (Damn it, why doesn't the multi-billion dollar company not hold the same values that I do?!?!?!)</p>\n<p> Blah, blah, blah....  Lots of mourning and explaining why since it feels like I'm betraying a fellow traveller.  This probably speaks more to my attachment to things than I realize.  But that's something to take up with a therapist and not yet something ready for blogging.  The end result is that I've got to figure out what's going to replace this gap in my toolchest.  Not just at work but also in my side hustles.  For now it looks like I'm starting down the path of K8's and containers.  The beginning looks to be something like this.</p>\n<pre>brew install --cask docker<br>brew install k3d<br>brew install kubectl<br>brew install helm</pre>\n<p>And I know I'm late to the party....  Others have definitely made this transition well before me.  My day job is at an enterprise scale role.  Systems that have lifespans of decades.  Modernization takes time to occur when working systems have inertia on their side.  For me this is a bit of a leap since much of the technologies I have to work with don't even understand the concept of running on a seperate unix server from 100's of other applications in the ecosystem of applications in our environment.  One big happy bunch of apps all running on a single server with no boundary enforcement other than conventions and learned behavior.  Or to twist Shakesphere's words.  The good that developers do dies with their employment.  The bad becomes near immutable tech debt.</p>",
+            "author": {
+                "name": "Chad Ballay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-07-02T22:06:06-05:00",
+            "date_modified": "2025-07-07T08:16:18-05:00"
+        },
+        {
             "id": "https://chadballay.com/proxmox-ve-server/",
             "url": "https://chadballay.com/proxmox-ve-server/",
             "title": "Proxmox VE Server",
@@ -140,23 +154,8 @@
             "tags": [
                    "Personal"
             ],
-            "date_published": "2023-02-26T09:28:38-06:00",
+            "date_published": "2023-02-26T10:28:38-05:00",
             "date_modified": "2024-05-11T21:34:24-05:00"
-        },
-        {
-            "id": "https://chadballay.com/apathy-wins/",
-            "url": "https://chadballay.com/apathy-wins/",
-            "title": "Apathy Wins",
-            "summary": "Started trawling through the PPP dataset and decided to focus on Bentonville based loans. That was a mistake. So many businesses that I know thrived during the pandemic or otherwise took advantage of the PPP loan program. Business where the owner has been publicly hateful to minorities. Or dismissive of&hellip;",
-            "content_html": "<p>Started trawling through the PPP dataset and decided to focus on Bentonville based loans.  That was a mistake.  So many businesses that I know thrived during the pandemic or otherwise took advantage of the PPP loan program.  Business where the owner has been publicly hateful to minorities.  Or dismissive of any social program that helps people since they hate socialism for everyone else but themselves.  So much damn money and all of it forgiven.  Just a straight up wealth transfer on the backs of those who pay taxes.... 1/2 a million for the local restruant owner who was anti-korean.  20k for a \"consultant\" who looks to have did it just to get a loan.</p>\n<p>And when I talked about it with friends I got two reactions.  Sympathetic sounds and apathy.  I have a bit of a sample bias going on since I'm talking to my own set of friends.  The sympathetic sounds part was good.  My friends doing what they can to de-ruffle my feathers.  But the apathy was just too much.  I don't have the reserves to give a St Crispins Day speech and somehow make the world be right.  It just ain't my wheelhouse.  So this leaves me drained and even more disappointed in our system.  </p>\n<p><a href=\"https://docs.google.com/spreadsheets/d/17OaOvNZsRaD6PtZM3Di1MfCCL7_x9XAT/edit?usp=sharing&amp;ouid=104180701464104876597&amp;rtpof=true&amp;sd=true\" target=\"_blank\" rel=\"noopener noreferrer\">In any case here is the Bentonville specific dataset I put together.</a>  </p>",
-            "author": {
-                "name": "Chad Ballay"
-            },
-            "tags": [
-                   "PPP"
-            ],
-            "date_published": "2023-02-12T18:15:46-06:00",
-            "date_modified": "2023-02-12T18:15:46-06:00"
         }
     ]
 }

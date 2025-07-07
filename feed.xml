@@ -3,12 +3,41 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2025-06-28T04:24:14-05:00</updated>
+    <updated>2025-07-07T08:16:18-05:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
     <id>https://chadballay.com</id>
 
+    <entry>
+        <title>Vagrant Begone!</title>
+        <author>
+            <name>Chad Ballay</name>
+        </author>
+        <link href="https://chadballay.com/new-linux-vm-setup/"/>
+        <id>https://chadballay.com/new-linux-vm-setup/</id>
+
+        <updated>2025-07-02T22:06:06-05:00</updated>
+            <summary>
+                <![CDATA[
+                    It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas. I've got years of familiarity with it and more importantly, the mythos around it's creation called to me. Here is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas.  I've got years of familiarity with it and more importantly, the mythos around it's creation called to me.  <br><br>Here is some of the backstory that I'm referring to:</p>
+<ul>
+<li><a href="https://www.hashicorp.com/en/resources/growing-hashicorp-from-dorm-room-oss">https://www.hashicorp.com/en/resources/growing-hashicorp-from-dorm-room-oss</a></li>
+<li><a href="https://mitchellh.com/writing/the-tao-of-vagrant">https://mitchellh.com/writing/the-tao-of-vagrant</a></li>
+<li><a href="https://www.youtube.com/watch?v=wL380zdLD6Y">https://www.youtube.com/watch?v=wL380zdLD6Y</a></li>
+</ul>
+<p>But Vagrant is getting long in the tooth.  Many of the plugins for Vagrant are no longer maintained.  Hashicorp hasn't been devoting a lot of horsepower to developing Vagrant beyond minimal bug fixes and some re-architecting for longterm maintenance. I had held out hope that IBM buying Hashicorp would trigger Vagrant's renesaince but that was me completely not understanding what made Hashicorp valuable to IBM.  (Damn it, why doesn't the multi-billion dollar company not hold the same values that I do?!?!?!)</p>
+<p> Blah, blah, blah....  Lots of mourning and explaining why since it feels like I'm betraying a fellow traveller.  This probably speaks more to my attachment to things than I realize.  But that's something to take up with a therapist and not yet something ready for blogging.  The end result is that I've got to figure out what's going to replace this gap in my toolchest.  Not just at work but also in my side hustles.  For now it looks like I'm starting down the path of K8's and containers.  The beginning looks to be something like this.</p>
+<pre>brew install --cask docker<br>brew install k3d<br>brew install kubectl<br>brew install helm</pre>
+<p>And I know I'm late to the party....  Others have definitely made this transition well before me.  My day job is at an enterprise scale role.  Systems that have lifespans of decades.  Modernization takes time to occur when working systems have inertia on their side.  For me this is a bit of a leap since much of the technologies I have to work with don't even understand the concept of running on a seperate unix server from 100's of other applications in the ecosystem of applications in our environment.  One big happy bunch of apps all running on a single server with no boundary enforcement other than conventions and learned behavior.  Or to twist Shakesphere's words.  The good that developers do dies with their employment.  The bad becomes near immutable tech debt.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Proxmox VE Server</title>
         <author>
@@ -246,7 +275,7 @@
         <id>https://chadballay.com/a-mind-is-a-terrible-thing-to-waste/</id>
             <category term="Personal"/>
 
-        <updated>2023-02-26T09:28:38-06:00</updated>
+        <updated>2023-02-26T10:28:38-05:00</updated>
             <summary>
                 <![CDATA[
                     My laptop has started getting flaky. I would be go along using it and then a random crash would occur. Or a reboot would fail. Etc, etc, etc... Confirmed my suspicions by running a memory diagnostic and found that the RAM is failing. $100 or so later and when the&hellip;
@@ -257,29 +286,6 @@
                 <p>My laptop has started getting flaky.  I would be go along using it and then a random crash would occur.  Or a reboot would fail.  Etc, etc, etc...  Confirmed my suspicions by running a memory diagnostic and found that the RAM is failing. $100 or so later and when the parts get here I'll be able to swap out 16GB of ram for an upgrade of 32GB.  Shout out to <a href="https://www.ifixit.com/" target="_blank" rel="noopener noreferrer">iFixIt.com</a> and their <a href="https://www.ifixit.com/Guide/Lenovo+ThinkPad+T480+RAM+Replacement/139943" target="_blank" rel="noopener noreferrer">Lenovo Thinkpad T480 Ram Replacement</a> guide.</p>
 <p>All this has me wondering when will we get to do that for humankind.  The ability to multi-task and have short term memory enough to remember what the hell I just walked into a room to retrieve would be amazing.  I'm definitely feeling that middle age crunch of more things to juggle and less ability to mentally juggle them.  I've started doing little hacks to help me remember.  Leave important things in doorways so that I have to see and deal with them as I leave the house.  Write lists upon lists of things to remember.  Make the kids be responsible for their own cognitive loads.  (They want me to remember to bring them to the park....  No if they don't remember then it doesn't happen.)</p>
 <p>All of these coping mechanisms are ones that I've picked up from watching TV or seeing other people tread upon this same path.  But what would happen if like my computer we could fix and even make our mental abilities better.  So many classic movies and tales would suddenly not resonate as much.  Would society be better?  Sometimes me forgetting ends up being a signal that whatever it was, it wasn't important enough.  A built in first-pass filter.  A need for setting up better boundaries for one's capacity would be needed.  Just because you can remember to do something doesn't mean it has to be done....</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Apathy Wins</title>
-        <author>
-            <name>Chad Ballay</name>
-        </author>
-        <link href="https://chadballay.com/apathy-wins/"/>
-        <id>https://chadballay.com/apathy-wins/</id>
-            <category term="PPP"/>
-
-        <updated>2023-02-12T18:15:46-06:00</updated>
-            <summary>
-                <![CDATA[
-                    Started trawling through the PPP dataset and decided to focus on Bentonville based loans. That was a mistake. So many businesses that I know thrived during the pandemic or otherwise took advantage of the PPP loan program. Business where the owner has been publicly hateful to minorities. Or dismissive of&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Started trawling through the PPP dataset and decided to focus on Bentonville based loans.  That was a mistake.  So many businesses that I know thrived during the pandemic or otherwise took advantage of the PPP loan program.  Business where the owner has been publicly hateful to minorities.  Or dismissive of any social program that helps people since they hate socialism for everyone else but themselves.  So much damn money and all of it forgiven.  Just a straight up wealth transfer on the backs of those who pay taxes.... 1/2 a million for the local restruant owner who was anti-korean.  20k for a "consultant" who looks to have did it just to get a loan.</p>
-<p>And when I talked about it with friends I got two reactions.  Sympathetic sounds and apathy.  I have a bit of a sample bias going on since I'm talking to my own set of friends.  The sympathetic sounds part was good.  My friends doing what they can to de-ruffle my feathers.  But the apathy was just too much.  I don't have the reserves to give a St Crispins Day speech and somehow make the world be right.  It just ain't my wheelhouse.  So this leaves me drained and even more disappointed in our system.  </p>
-<p><a href="https://docs.google.com/spreadsheets/d/17OaOvNZsRaD6PtZM3Di1MfCCL7_x9XAT/edit?usp=sharing&amp;ouid=104180701464104876597&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener noreferrer">In any case here is the Bentonville specific dataset I put together.</a>  </p>
             ]]>
         </content>
     </entry>
