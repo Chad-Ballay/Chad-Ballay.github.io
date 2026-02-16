@@ -18,7 +18,7 @@
         <id>https://chadballay.com/kidney-cancer/</id>
 
         <updated>2025-10-08T01:14:41-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     After coming back from a vacation, I had what I thought was a persistant UTI. Went to the walk-in clinic and was given a prescription for it and was told that if it doesn't go away to make an appointment with my primary care physician. Low and behold it didn't&hellip;
                 ]]>
@@ -45,7 +45,7 @@
         <id>https://chadballay.com/new-linux-vm-setup/</id>
 
         <updated>2025-07-02T22:06:06-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas. I've got years of familiarity with it and more importantly, the mythos around it's creation called to me. Here is&hellip;
                 ]]>
@@ -74,7 +74,7 @@
         <id>https://chadballay.com/proxmox-ve-server/</id>
 
         <updated>2025-06-28T03:43:12-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Using these references for getting Proxmox setup. Then setting up Bitwarden as my first container. Then configuring backups to my NAS. https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/ https://unix.stackexchange.com/questions/138090/cant-resize-a-partition-using-resize2fs https://forum.proxmox.com/threads/can-not-backup-lxc-unprivileged.71878/#post-321844
                 ]]>
@@ -112,7 +112,7 @@
         <id>https://chadballay.com/setting-up-lets-encrypt-on-unifi/</id>
 
         <updated>2025-06-22T03:42:06-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     This just caused me to go down a lengthy rabbit hole about how Unify has SSL certs configured on their devices and the interplay they have with their own WiFiMan app. Not the worst tradeoff but it is something to be aware of. https://github.com/kchristensen/udm-le/issues/30 Just spent waaaayyyy too much time&hellip;
                 ]]>
@@ -150,7 +150,7 @@
             <category term="Cybersecurity"/>
 
         <updated>2024-05-11T21:07:42-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Currently taking a cybersecurity bootcamp through work as a side hustle. Part of what I'm doing in the class is documenting some things for myself and for others in the cohort that they might want to also do for the inevitable job hunt. Today's effort is spinning up a professional&hellip;
                 ]]>
@@ -191,7 +191,7 @@
             <category term="Personal"/>
 
         <updated>2023-04-15T16:36:20-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://chadballay.com/media/posts/22/pi-hole.png" alt="" />
                     Definitely noticed that internet surfing has improved. I mean I knew it would but not to the degree it has.
@@ -214,7 +214,7 @@
             <category term="Personal"/>
 
         <updated>2023-04-13T05:36:33-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Bit of a non-technical sidestep…. I got a dog named Lafayette. A Great Pyrenees mix to be exact. Jesus, I forgot what its like to own a dog. To be able to talk to the creature and know that it understands nothing of what you are saying and yet if&hellip;
                 ]]>
@@ -235,7 +235,7 @@
             <category term="Cybersecurity"/>
 
         <updated>2023-04-02T11:13:06-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Going to clean up my home setup. First step was to cut down on the crap ads and other stuff when browsing the web. I’ve set one up before so I figured it would be straight forward…. It would be if I didn’t have ATT and their supplied router. It’s&hellip;
                 ]]>
@@ -261,7 +261,7 @@
             <category term="Personal"/>
 
         <updated>2023-03-25T06:54:14-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     I’m going to start this off with the main point. I love this realization for my mom. In a very real sense of the world it reassures me. I’m too damn old though to not realize that the tone of what I say leaves this too nuainced to properly convey&hellip;
                 ]]>
@@ -282,7 +282,7 @@
             <category term="Cybersecurity"/>
 
         <updated>2023-03-25T01:47:17-05:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Just now starting looking at the first class I'm taking at WGU. It's 1:44 AM on Saturday... Why I'm not asleep, I just don't know. What I do know is that I'm doubting my decision to do this degree. The work will be a slog. Not complex enough to make&hellip;
                 ]]>
