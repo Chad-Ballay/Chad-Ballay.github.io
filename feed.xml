@@ -3,7 +3,7 @@
     <title>Chad&#x27;s Sandbox</title>
     <link href="https://chadballay.com/feed.xml" rel="self" />
     <link href="https://chadballay.com" />
-    <updated>2025-10-08T01:23:21-05:00</updated>
+    <updated>2026-06-29T23:15:28-04:00</updated>
     <author>
         <name>Chad Ballay</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://chadballay.com/kidney-cancer/"/>
         <id>https://chadballay.com/kidney-cancer/</id>
 
-        <updated>2025-10-08T01:14:41-05:00</updated>
+        <updated>2026-06-29T23:15:28-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     After coming back from a vacation, I had what I thought was a persistant UTI. Went to the walk-in clinic and was given a prescription for it and was told that if it doesn't go away to make an appointment with my primary care physician. Low and behold it didn't&hellip;
@@ -26,8 +26,8 @@
         <content type="html">
             <![CDATA[
                 <p>After coming back from a vacation, I had what I thought was a persistant UTI.  Went to the walk-in clinic and was given a prescription for it and was told that if it doesn't go away to make an appointment with my primary care physician.  Low and behold it didn't go away....  My PCP talked it over with me and decided to also get me checked for a kidney stone.  Turns out I did have a kidney stone but I also have kidney cancer.  Aug 12th is when I got these results.  </p>
-<figure class="post__image"><img loading="lazy"  src="https://chadballay.com/media/posts/27/ct_scan_diagnosis.jpg" alt="CT scan test results listing that a renal mass had been found." width="348" height="207" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-xs.jpg 300w ,https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-sm.jpg 480w ,https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-md.jpg 768w"></figure>
-<p>I do not have a family history of cancer.  If it wasn't for the kidney stone, I wouldn't have found out about this.  I had <em>NO</em> symptoms.  No odd lump or tenderness on my lower back.  Wasn't pissing blood.  Nothing.  I may be one of the few people that has ever been thankful for having a kidney stone.  That damn thing is helping to save my life.</p>
+<figure class="post__image"><figure class="is-loaded"><img  src="https://chadballay.com/media/posts/27/ct_scan_diagnosis.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-xs.jpg 300w, https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-sm.jpg 480w, https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-md.jpg 768w" alt="CT scan test results listing that a renal mass had been found." width="348" height="207" loading="lazy" sizes="(max-width: 48em) 100vw, 768px" srcset="https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-xs.jpg 300w ,https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-sm.jpg 480w ,https://chadballay.com/media/posts/27/responsive/ct_scan_diagnosis-md.jpg 768w"></figure></figure>
+<p>I do not have a family history of cancer.  If it wasn't for the kidney stone, I wouldn't have found out about this.  I had <em>NO</em> symptoms.  No odd lump or tenderness on my lower back.  Wasn't pissing blood.  Nothing.  I may be one of the few people that has ever been thankful for having a kidney stone.  That damn thing is helping to save my life.</p>
 <p>From this point it's been a whirlwind of activity.  Within 20 days, I had met with a surgeon, had more tests done, gotten additional CT scans done, gone on LOA from work, and went under the knife to have my left kidney completely removed.  The tumor was massive.  To put it into perspective, your kidney might be the size of computer mouse or a bar of soap.  The tumor that I had was the size of a cantaloupe.  There was nothing to be done to save my left kidney so my surgery was a radical nephrectomy.  This means that I have to now live with just one kidney and therefore I have to be verrrryyyy careful for it.  Lower my salt intake, keep my weight down, don't develop diabetes, and absolutely make sure to keep it protected from physical trauma.</p>
 <p>The recovery from the surgery sucked in new ways that I didn't realize it would suck.  Every damn movement you do involves using your core muscles.  Well my core muscles had been sliced in several locations for the surgery so I couldn't do much of anything with having pain lance through me.  The gas pains from them blowing me up like a balloon for the surgery sucked.  The pain medicine didn't really stop the pain it just made where I didn't care about the pain.  Well that and they made me constipated.  I'm glad to be alive but more importantly I'm glad I'm almost physically healed from that hot mess.  </p>
 <p>The shitty part is this is just part 1 of what is likely a 3 part journey.  Yipee, they removed the big ass tumor they saw on the scans....  Doesn't mean they got all the cancer.  Little fucking cancerous cells might be and likely are still in me.  Hence the next phase of this process.  I get to start immunotherapy now.  I get to live with a year of very invasive tests and procedures to help make sure I beat cancer.  It also means that every thing I do during this next year might be my last chance to do that thing.  Hopefully, I beat this son of a bitch but I've also got some scary statistics about survival rates hanging over me....</p>
@@ -44,7 +44,7 @@
         <link href="https://chadballay.com/new-linux-vm-setup/"/>
         <id>https://chadballay.com/new-linux-vm-setup/</id>
 
-        <updated>2025-07-02T22:06:06-05:00</updated>
+        <updated>2025-07-02T23:06:06-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     It's been a long time coming but still is a hard transition to be giving up using Vagrant as my go to tool as a sandbox for system design ideas. I've got years of familiarity with it and more importantly, the mythos around it's creation called to me. Here is&hellip;
@@ -73,7 +73,7 @@
         <link href="https://chadballay.com/proxmox-ve-server/"/>
         <id>https://chadballay.com/proxmox-ve-server/</id>
 
-        <updated>2025-06-28T03:43:12-05:00</updated>
+        <updated>2025-06-28T04:43:12-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Using these references for getting Proxmox setup. Then setting up Bitwarden as my first container. Then configuring backups to my NAS. https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/ https://unix.stackexchange.com/questions/138090/cant-resize-a-partition-using-resize2fs https://forum.proxmox.com/threads/can-not-backup-lxc-unprivileged.71878/#post-321844
@@ -111,7 +111,7 @@
         <link href="https://chadballay.com/setting-up-lets-encrypt-on-unifi/"/>
         <id>https://chadballay.com/setting-up-lets-encrypt-on-unifi/</id>
 
-        <updated>2025-06-22T03:42:06-05:00</updated>
+        <updated>2025-06-22T04:42:06-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     This just caused me to go down a lengthy rabbit hole about how Unify has SSL certs configured on their devices and the interplay they have with their own WiFiMan app. Not the worst tradeoff but it is something to be aware of. https://github.com/kchristensen/udm-le/issues/30 Just spent waaaayyyy too much time&hellip;
@@ -149,7 +149,7 @@
         <id>https://chadballay.com/creating-a-github-hosted-blog/</id>
             <category term="Cybersecurity"/>
 
-        <updated>2024-05-11T21:07:42-05:00</updated>
+        <updated>2024-05-11T22:07:42-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Currently taking a cybersecurity bootcamp through work as a side hustle. Part of what I'm doing in the class is documenting some things for myself and for others in the cohort that they might want to also do for the inevitable job hunt. Today's effort is spinning up a professional&hellip;
@@ -190,7 +190,7 @@
         <media:content url="https://chadballay.com/media/posts/22/pi-hole.png" medium="image" />
             <category term="Personal"/>
 
-        <updated>2023-04-15T16:36:20-05:00</updated>
+        <updated>2023-04-15T17:36:20-04:00</updated>
             <summary type="html">
                 <![CDATA[
                         <img src="https://chadballay.com/media/posts/22/pi-hole.png" alt="" />
@@ -213,7 +213,7 @@
         <id>https://chadballay.com/step-2-get-a-dog/</id>
             <category term="Personal"/>
 
-        <updated>2023-04-13T05:36:33-05:00</updated>
+        <updated>2023-04-13T06:36:33-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Bit of a non-technical sidestep…. I got a dog named Lafayette. A Great Pyrenees mix to be exact. Jesus, I forgot what its like to own a dog. To be able to talk to the creature and know that it understands nothing of what you are saying and yet if&hellip;
@@ -234,7 +234,7 @@
         <id>https://chadballay.com/step-1-pi-hole/</id>
             <category term="Cybersecurity"/>
 
-        <updated>2023-04-02T11:13:06-05:00</updated>
+        <updated>2023-04-02T12:13:06-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Going to clean up my home setup. First step was to cut down on the crap ads and other stuff when browsing the web. I’ve set one up before so I figured it would be straight forward…. It would be if I didn’t have ATT and their supplied router. It’s&hellip;
@@ -260,7 +260,7 @@
         <id>https://chadballay.com/actions-not-words/</id>
             <category term="Personal"/>
 
-        <updated>2023-03-25T06:54:14-05:00</updated>
+        <updated>2023-03-25T07:54:14-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     I’m going to start this off with the main point. I love this realization for my mom. In a very real sense of the world it reassures me. I’m too damn old though to not realize that the tone of what I say leaves this too nuainced to properly convey&hellip;
@@ -281,7 +281,7 @@
         <id>https://chadballay.com/wgu/</id>
             <category term="Cybersecurity"/>
 
-        <updated>2023-03-25T01:47:17-05:00</updated>
+        <updated>2023-03-25T02:47:17-04:00</updated>
             <summary type="html">
                 <![CDATA[
                     Just now starting looking at the first class I'm taking at WGU. It's 1:44 AM on Saturday... Why I'm not asleep, I just don't know. What I do know is that I'm doubting my decision to do this degree. The work will be a slog. Not complex enough to make&hellip;
